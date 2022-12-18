@@ -25,7 +25,7 @@ for (file of commands) {
 
 // Events
 client.on("ready", () => {
-    client.user.setActivity(`Serving ${client.guilds.cache.size + 4} servers.`);
+    client.user.setActivity(`Serving ${client.guilds.cache.size} servers.`);
 
     setInterval(() => {
         client.user.setStatus("e");
