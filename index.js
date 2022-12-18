@@ -32,6 +32,7 @@ client.on("ready", () => {
     }, 10000);
 })
 
+// On message
 client.on("messageCreate", (message) => {
      if (message.content.startsWith(defaultPrefix)) {
         const args = message.content.slice(defaultPrefix.length).trim().split(/ + /g);
